@@ -1,0 +1,29 @@
+.home{
+    height: 100vh;
+    /* margin: auto; */
+}
+.homeBox{
+    width: 80%;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    border-top: 2px solid black;
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+}
+.homeBox h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.homeBox h6{
+    margin-bottom: 15px;
+    color: gray;
+}
+.homeBox button{
+    display: block;
+    margin: auto;
+}
+@media only screen and (min-width:688px) {
+    .homeBox{
+        width: 40%;
+    }
+}

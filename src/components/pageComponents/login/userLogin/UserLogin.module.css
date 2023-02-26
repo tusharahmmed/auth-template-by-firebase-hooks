@@ -1,0 +1,27 @@
+.login{
+    border: 1px solid rgba(128, 128, 128, 0.295);
+    border-top: 2px solid black;
+    padding: 30px;
+    
+}
+.or{
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+.googleBtn img{
+    margin-top: 20px;
+    cursor: pointer;
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .googleBtn img{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .googleBtn img{
+        width: 70%;
+    }
+}

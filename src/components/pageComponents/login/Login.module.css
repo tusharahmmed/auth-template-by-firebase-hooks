@@ -1,0 +1,31 @@
+.accountContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sectionWraper{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 80px;
+}
+.pageTitle h3{
+    margin: 15px 0 10px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: .1em;
+    color: #1a1a1a;
+    line-height: 1.1;
+}
+.formWrape{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px
+}
+@media only screen and (max-width:688px) {
+    .formWrape{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
